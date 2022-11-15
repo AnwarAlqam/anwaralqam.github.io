@@ -1,0 +1,353 @@
+html,body { 
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  overflow-x: hidden; 
+}
+
+
+.navbar{
+  font-family: 'Roboto',sans-serif;
+}
+.navbar nav{
+  width:100%;
+  position:fixed;
+  z-index:1; 
+  top:0px;
+  font-size: 15px;
+  padding: 10px;
+  background: rgba(15,15,15, 1.0);
+}
+
+.navbar ul{
+  width:fit-content; 
+  margin:auto; 
+  list-style:none;
+}
+
+.navbar ul li{
+  float:left;
+  margin-right:20px;
+}
+
+.navbar ul li a{
+  color:#fff;
+  text-decoration:none;
+  transition: all ease-in-out 200ms;
+
+}
+
+.navbar ul li a:hover{
+  color: #0099ff;
+}
+
+
+.skillsFrame{
+  margin: auto;
+  width: 300px;
+  margin-top: -40px;
+  background: rgba(255, 255, 255, 0);
+  padding: 28px;
+  text-align: center;
+  color: white;
+}
+
+.skillsFrame table{
+  margin-left:auto; 
+  margin-right:auto;
+  table-layout: auto;
+}
+
+.skillsFrame td{
+  color: white;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.centerFrame{
+
+  -moz-box-shadow:    inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
+  box-shadow:         inset 0 0 3px #000000;
+  margin: auto;
+  position: relative;
+  top: 46%;
+  transform: translateY(-50%);
+  width: 300px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 28px;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto',sans-serif;
+}
+
+.facePicture{
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+}
+.centerFrame h1{
+  font-size: 32px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-top:  20px;
+  margin-bottom: 0%;
+}
+.centerFrame h2{
+  font-size: 21px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 0%;
+}
+.centerFrame p{
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.centerFrame ul{
+  margin: 0; 
+  padding: 0;
+}
+.centerFrame li{
+  display: inline-block;
+  margin: 10px;
+}
+.centerFrame li a{
+  color: white; 
+  font-size: 50px;
+  transition: all ease-in-out 200ms;
+}
+.centerFrame li a:hover{
+  color: #0099ff;
+}
+
+.projectFrame{
+  -moz-box-shadow:    inset 0 0 5px #000000;
+  -webkit-box-shadow: inset 0 0 5px #000000;
+  box-shadow:         inset 0 0 5px #000000;
+  margin: auto;
+  width: 450px;
+  height: 180px;
+  background: rgba(255, 255, 255, 0.02);
+  color: white;
+  padding: 10px;
+  border-style: inset;
+  border-left-color: #0099ff;
+  border-top-color: grey;
+  border-bottom-color: grey;
+
+  border-left-width: 15px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  font-family: 'Arial',sans-serif;
+}
+.projectPicture{
+  width: 180px;
+  height: 180px;
+  border-radius: 5%;
+  
+}
+.projectFrame h1{
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  float: right;
+  margin-top: 5px;
+  border-top-color: grey;
+}
+.projectFrame h2{
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  float: right;
+  margin-top: -155px;
+  border-top-color: grey;
+}
+.projectFrame p{
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  float: right;
+  margin-top: -125px;
+
+}
+
+
+.educationFrame{
+
+  -moz-box-shadow:    inset 0 0 5px #000000;
+  -webkit-box-shadow: inset 0 0 5px #000000;
+  box-shadow:         inset 0 0 5px #000000;
+  margin: auto;
+  width: 480px;
+  height: 130px;
+  margin-bottom: 25px;
+  padding: 15px;
+  padding: 0px;
+  background: rgba(255, 255, 255, 0.02);
+  border-style: inset;
+  border-left-color: #0099ff;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+
+  border-left-width: 13px;
+  color: white;
+  font-family: 'Arial',sans-serif;
+}
+.educationFrame h1{
+  padding-top: 10px;
+  padding: 0px;
+  padding-top: 10px;
+  margin-left: 10px;
+
+  margin-bottom: 0px;
+  margin-right: 0px;
+
+  font-size: 22px;
+  font-weight: 100;
+}
+.educationFrame p{
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+  margin-top: -110px;
+  margin-right: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: lightgray;
+  letter-spacing: 1px;
+}
+.educationFrame h3{
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 5px;
+  margin-left: 12px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: lightgray;
+  letter-spacing: 1px;
+}
+
+.educationFrame h2{
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+
+.mailButton {
+  position: relative;
+  display: inline-block;
+}
+
+.mailButtonDropdown {
+  display: none;
+  position: absolute;
+  background-color: rgba(35,35,35,0.8);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: -90px;
+  letter-spacing: 0.5px;
+  transition: all ease-in-out 200ms;
+}
+.mailButton:hover .mailButtonDropdown {display: block; }
+
+.contactFrame{
+  margin: auto;
+  width: 600px;
+  height: 180px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Roboto',sans-serif;
+}
+.contactFrame p{
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+.contactFrame ul{
+  margin: 0; 
+  padding: 0;
+}
+.contactFrame li{
+  display: inline-block;
+  margin: 40px;
+}
+.contactFrame li a{
+  color: white; 
+  font-size: 80px;
+  transition: all ease-in-out 200ms;
+}
+.contactFrame li a:hover{
+  color: #0099ff;
+}
+
+
+section{width:100%; height: 100vh; float:left;}
+
+#frontpage{
+  background: url(/assets/background.jpg) center no-repeat ; 
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  overflow-x: hidden; 
+
+}
+
+#about{
+  height: 650px;
+  background: #0f0f0f;
+}
+#skills{
+  height: 350px;
+  background: #0f0f0f;
+}
+#projects{
+  height: 650px;
+  background: #0f0f0f;
+}
+#education{
+  height: 500px;
+  background:#0f0f0f;
+}
+#contact{
+  height: 350px;
+  background: #0f0f0f;
+}
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  background-color:#0f0f0f; 
+  padding: 5px;
+  margin-bottom: 5px;
+}
